@@ -1,0 +1,13 @@
+login:
+  constraints:
+    username: 'required'
+    password: 'required'
+
+register:
+  constraints:
+    username: 'required'
+    password: 'required'
+    email: 'required|email'
+    phone: 'required'
+    gender: 'required|in:male,female'
+    name: 'required'

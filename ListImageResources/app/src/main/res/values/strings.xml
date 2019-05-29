@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="array_images_name">
+        <item>Caffe Americano</item>
+        <item>Cappuccino</item>
+        <item>Espresso</item>
+        <item>Latte</item>
+    </string-array>
+
+    <integer-array name="array_images">
+        <item>@drawable/caffeamericano</item>
+        <item>@drawable/cappuccino</item>
+        <item>@drawable/espresso</item>
+        <item>@drawable/latte</item>
+    </integer-array>
+</resources>

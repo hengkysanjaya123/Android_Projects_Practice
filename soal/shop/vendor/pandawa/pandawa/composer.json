@@ -1,0 +1,66 @@
+{
+    "name": "pandawa/pandawa",
+    "description": "The Laravel Higher Framework.",
+    "keywords": ["laravel", "pandawa"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Iqbal Maulana",
+            "email": "iq.bluejack@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "borobudur/dci": "~0.1@dev",
+        "borobudur/exception": "~0.1@dev",
+        "borobudur/parameter": "~0.1@dev",
+        "fideloper/proxy": "~4.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "laravel/framework": "^5.6",
+        "lcobucci/jwt": "^4.0@dev",
+        "ramsey/uuid": "^3.7",
+        "reactivex/rxphp": "^2.0",
+        "symfony/yaml": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pandawa\\": "src/"
+        },
+        "files": [
+            "src/Module/Reactive/Resources/functions/observables.php",
+            "src/Module/Reactive/Resources/functions/operators.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Pandawa\\Module\\Api\\PandawaApiModule",
+                "Pandawa\\Module\\Event\\PandawaEventModule",
+                "Pandawa\\Module\\Bus\\PandawaBusModule",
+                "Pandawa\\Module\\Generator\\PandawaGeneratorModule",
+                "Pandawa\\Module\\Rule\\PandawaRuleModule",
+                "Pandawa\\Module\\Ddd\\PandawaDddModule",
+                "Pandawa\\Module\\Resource\\PandawaResourceModule",
+                "Pandawa\\Module\\Presenter\\PandawaPresenterModule",
+                "Pandawa\\Module\\Reactive\\PandawaReactiveModule"
+            ]
+        }
+    }
+}

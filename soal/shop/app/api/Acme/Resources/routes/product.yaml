@@ -1,0 +1,12 @@
+products:
+  type: resource
+  path: products
+  resource: product
+  middleware: 'auth:api'
+  except:
+    - destroy
+  rules: [product]
+  options:
+    paginate: true
+    middleware:
+      - 'has_role:admin': { only: [store, update] }

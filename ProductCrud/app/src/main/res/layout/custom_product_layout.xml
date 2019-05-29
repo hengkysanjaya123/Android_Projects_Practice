@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="0.9"
+            android:layout_width="0dp"
+            android:layout_height="55dp">
+
+        <TextView
+                android:textSize="15sp"
+                tools:text="Name"
+                android:textStyle="bold"
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    tools:text="Price Customer : "
+                    android:id="@+id/tvPriceCustomer"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    tools:text="Price Sales : "
+                    android:id="@+id/tvPriceSales"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/ivDelete"
+            android:src="@android:drawable/ic_delete"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:layout_height="55dp"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+ping:
+    type: get
+    path: ping
+    controller: 'Acme\Api\Http\Controller\PingController@ping'
+
+auth:
+    type: message
+    path: auth
+    message: "pandawa:auth"
+    methods: [post]
+    rules: [login]
+
+user:
+    type: message
+    path: users
+    name: users.store
+    message: register-user
+    rules:
+        register
+    methods:
+    - post
+
+me:
+    type: message
+    path: users/me
+    message: "pandawa:auth.me"
+    methods: [get]
+    middleware: ['auth:api']
+    options:
+        withs:
+            - role
+
+products:
+    type: group
+    children: product.yaml

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+>
+
+    <LinearLayout
+            android:layout_marginBottom="@dimen/margin_wide_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                tools:src="@drawable/b65"
+                android:layout_height="130dp"
+                android:scaleType="fitXY"
+                android:paddingLeft="@dimen/margin_wide_4"
+                android:paddingRight="@dimen/margin_wide_4"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+
+                android:id="@+id/imageView1"/>
+
+        <ImageView
+                tools:src="@drawable/b65"
+                android:layout_height="130dp"
+                android:scaleType="fitXY"
+                android:paddingLeft="@dimen/margin_wide_4"
+                android:paddingRight="@dimen/margin_wide_4"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:id="@+id/imageView2"/>
+
+        <ImageView
+                tools:src="@drawable/b65"
+                android:layout_height="130dp"
+                android:scaleType="fitXY"
+                android:paddingLeft="@dimen/margin_wide_4"
+                android:paddingRight="@dimen/margin_wide_4"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:id="@+id/imageView3"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_marginBottom="@dimen/margin_wide_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                tools:src="@drawable/b65"
+                android:layout_height="130dp"
+                android:scaleType="fitXY"
+                android:paddingLeft="@dimen/margin_wide_4"
+                android:paddingRight="@dimen/margin_wide_4"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:id="@+id/imageView4"/>
+
+        <ImageView
+                tools:src="@drawable/b65"
+                android:layout_height="130dp"
+                android:scaleType="fitXY"
+                android:paddingLeft="@dimen/margin_wide_4"
+                android:paddingRight="@dimen/margin_wide_4"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:id="@+id/imageView5"/>
+
+        <ImageView
+                tools:src="@drawable/b65"
+                android:layout_height="130dp"
+                android:scaleType="fitXY"
+                android:paddingLeft="@dimen/margin_wide_4"
+                android:paddingRight="@dimen/margin_wide_4"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:id="@+id/imageView6"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_marginBottom="@dimen/margin_wide_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                tools:src="@drawable/b65"
+                android:paddingLeft="@dimen/margin_wide_4"
+                android:paddingRight="@dimen/margin_wide_4"
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="268dp"
+                android:scaleType="fitXY"
+                android:id="@+id/imageView9"/>
+
+        <LinearLayout
+                android:layout_margin="0dp"
+                android:paddingLeft="@dimen/margin_wide_4"
+                android:paddingRight="@dimen/margin_wide_4"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    tools:src="@drawable/b65"
+                    android:layout_height="130dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginBottom="@dimen/margin_wide_8"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/imageView7"/>
+
+            <ImageView
+                    tools:src="@drawable/b65"
+                    android:scaleType="fitXY"
+                    android:layout_height="130dp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/imageView8"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

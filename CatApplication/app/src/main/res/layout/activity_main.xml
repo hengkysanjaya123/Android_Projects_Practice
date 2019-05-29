@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        app:fontFamily="@font/roboto_thin"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:orientation="vertical">
+
+    <ProgressBar
+            android:id="@+id/pbLoading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:padding="@dimen/margin_wide_16"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[1]"
+                android:id="@+id/imageView"
+                android:scaleType="fitXY"
+        />
+        <TextView
+                android:text="@string/fur_ever_npurr_fect_cat"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:padding="@dimen/margin_wide_16"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textSize="30sp"
+                app:fontFamily="@font/roboto_thin"
+                android:textStyle="bold"/>
+        <Button
+                android:text="@string/i_m_feline_great"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_wide_16"
+                android:layout_marginRight="@dimen/margin_wide_16"
+                android:layout_marginTop="@dimen/margin_wide_8"
+                android:id="@+id/btnFelineGreat"/>
+
+        <Button
+                android:text="@string/meow_velous_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_wide_16"
+                android:layout_marginRight="@dimen/margin_wide_16"
+                android:layout_marginTop="@dimen/margin_wide_8"
+                android:id="@+id/button2"/>
+
+
+        <Button
+                android:text="@string/add_paw_some_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_wide_16"
+                android:layout_marginRight="@dimen/margin_wide_16"
+                android:layout_marginTop="@dimen/margin_wide_8"
+                android:id="@+id/button3"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

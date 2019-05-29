@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="create_new_account">
+        <u>
+            <b>Create a new account</b>
+        </u>
+    </string>
+</resources>
